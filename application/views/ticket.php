@@ -7,8 +7,7 @@ use Mike42\Escpos\EscposImage;
 use Mike42\Escpos\PrintConnectors\WindowsPrintConnector;
 
 try {
-	// print_r($atencion);
-	$connector = new WindowsPrintConnector("XP-81C");
+	$connector = new WindowsPrintConnector("XP-80C");
 
 	$printer = new Printer($connector);
 
